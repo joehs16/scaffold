@@ -1,3 +1,7 @@
+environment: 
+	virtualenv ~/.<project-name>
+	source ~/.<project-name>/
+
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
