@@ -1,7 +1,3 @@
-environment: 
-	virtualenv ~/.<project-name>
-	source ~/.<project-name>/bin/activate
-
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
